@@ -4,7 +4,8 @@ Implementation: Singly Linked Lists
 
 ## Author - Tek Jones
 
-## test - npm run test
+## test 
+- npm run test
 
 ## Description
 - This is a Singly Linked Lists build with classes
