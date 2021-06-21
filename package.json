@@ -1,0 +1,24 @@
+{
+  "name": "data-structures-linked-list",
+  "version": "1.0.0",
+  "description": "Implementation: Singly Linked Lists",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tekthree/data-structures-linked-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tekthree/data-structures-linked-list/issues"
+  },
+  "homepage": "https://github.com/Tekthree/data-structures-linked-list#readme",
+  "dependencies": {
+    "jest": "^27.0.4",
+    "supertest": "^6.1.3"
+  }
+}
