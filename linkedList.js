@@ -5,6 +5,13 @@ class LinkedList{
     this.head = null;
     this.length = 0;
   }
+  
+  class LinkedListNode {
+  constructor(value, next){
+    this.value = value;
+    this.next = next;
+  }
+}
 
   insertAtHead(data){
     const newNode = new LinkedListNode(data, this.head);
@@ -45,12 +52,6 @@ class LinkedList{
   }
 }
 
-class LinkedListNode {
-  constructor(value, next){
-    this.value = value;
-    this.next = next;
-  }
-}
 
 LinkedList.fromValues = function(...values){
   const ll = new LinkedList();
